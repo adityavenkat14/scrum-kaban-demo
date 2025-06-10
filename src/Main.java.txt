@@ -4,11 +4,21 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to Scrum-Kanban-Demo 🚀");
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+        System.out.println("=== Login Screen ===");
 
-        System.out.println("Hello, " + name + "! Let's get productive!");
+        System.out.print("Username: ");
+        String username = scanner.nextLine();
+
+        System.out.print("Password: ");
+        String password = scanner.nextLine();
+
+        // Simple hardcoded login check
+        if (username.equals("admin") && password.equals("1234")) {
+            System.out.println("✅ Login successful! Welcome");
+        } else {
+            System.out.println("❌ Invalid username or password.");
+        }
+
         scanner.close();
     }
 }
