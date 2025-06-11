@@ -35,8 +35,7 @@ Focus on initializing the project, creating folder structure, adding the main Ja
 ## ✅ Tasks & Board
 
 We use GitHub Projects as a Kanban board.  
-🔗 [Project Board](https://github.com/YOUR-USERNAME/scrum-kanban-demo/projects)  
-*(Replace this with your actual board link)*
+🔗 [Project Board] https://github.com/adityavenkat14/scrum-kaban-demo/projects?query=is%3Aopen 
 
 ### Board Columns:
 - **Backlog**: Review code quality  
