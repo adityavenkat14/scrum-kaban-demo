@@ -49,8 +49,8 @@ We use GitHub Projects as a Kanban board.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/scrum-kanban-demo.git
-   cd scrum-kanban-demo
+   git clone https://github.com/adityavenkat14/scrum-kaban-demo/projects?query=is%3Aopen
+   cd scrum-kaban-demo
 
 javac src/Main.java
 java Main
